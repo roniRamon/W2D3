@@ -1,0 +1,36 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: LightGray
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list li {
+  list-style: square inside;
+
+}
+
+ol li {
+  list-style: armenian inside;
+}
+
+header > img {
+  width: 100px;
+}
+
+ul > li > a:link, ul > li > a:visited, ul > li > a:hover, ul > li > a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.user_review {
+  text-align: center;
+  color: white;
+  background-color: black; 
+}
